@@ -1,0 +1,431 @@
+*{
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+.navbar{
+    height:3.75rem;
+    background-color:#f0d41d;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.brand{
+    font-size:2rem;
+    font-weight:bolder;
+}
+.categories a{
+    text-decoration:none;
+    color:rgb(99, 96, 96);
+    margin:0.8rem;
+}
+.search{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.searchbar{
+    border:none;
+    border-top-right-radius:1.5rem;
+    border-bottom-right-radius:1.5rem;
+    height:2rem;
+    text-align:left;
+    margin-right:0.2rem;
+}
+.searchicon{
+    background-color: white;
+    height:2rem;
+    width:2rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchicon i{
+    font-size: 0.8rem; 
+    font-weight: bolder;
+    color:rgb(87, 86, 86);
+}
+.menus{
+    height:2rem;
+    width:5rem;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.cart{
+    height:2rem;
+    width:2rem;
+    border-radius:50%;
+    background-color: red;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+}
+.menu{
+    height:2rem;
+    width:2rem;
+    border-radius:50%;
+    background-color:#1c1b18;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+}
+.heroSection{
+    height:32.5rem;
+    width:100%;
+    background-image: url("https://www.manjooran.com/wp-content/themes/manjooran/img/img_1.png");
+    background-size:cover;
+}
+.heading{
+color:beige;
+font-size: 4rem;
+font-weight: bold;
+}
+.hcolor{
+   color:beige; 
+}
+.shopnow{
+    color:azure;
+    position:relative;
+    top:2.5rem;
+}
+.herocontent{
+    position:relative;
+    top:6.25rem;
+}
+.mainbody1{
+    background-color:rgb(238, 237, 237);
+    width:100%;
+    height:16rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.m1{
+    height:15rem;
+    width:14rem;
+    background-color:white;
+    margin:0.1rem;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+}
+.handbag{
+    width:60%;
+    height:8rem;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO1hL_HdxzSUnoSpFeCfeEhcGn3jO37AD7ig&s");
+    background-size:cover;
+}
+.m1 p{
+    position:relative;
+    top:2.5rem;
+}
+.lighting{
+    width:60%;
+    height:8rem;
+    background-image:url("https://img.buzzfeed.com/buzzfeed-static/static/2014-05/enhanced/webdr06/5/11/enhanced-19818-1399302569-9.jpg?downsize=900:*&output-format=auto&output-quality=auto");
+    background-size:cover;
+}
+.kids{
+    width:60%;
+    height:8rem;
+    background-image:url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRPCOPfyAoVebRx7spGuDRO1I_5cF07TThNSE9FODbCbXCbyYUx");
+    background-size:cover;
+    background-position: center;
+}
+.watches{
+    width:60%;
+    height:8rem;
+    background-image:url("https://www.lifestyle-collection.com.pk/wp-content/uploads/2021/11/Y49003L7MF-1.jpg");
+    background-size:cover;
+    background-position: center;
+}
+.kitchen{
+    width:60%;
+    height:8rem;
+    background-image:url("https://www.krupsusa.com/medias/?context=bWFzdGVyfGltYWdlc3w2OTAyOXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneVpTOW9OV1l2TWpZNE56VTFPVFUxTWpJd056Z3wwZWMxYzJiOTI1YjE5NmVlMThkZDhmZGU5ZDdkNTY3NjY4NTNlM2Q5MzhkMmI4YmFmOTE3MGVlYTIyOGIxMDA1");
+    background-size:cover;
+}
+.mainbody2{
+    background-color:rgb(238, 237, 237);
+    width:100%;
+    height:33.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.m2{
+    height:33.5rem;
+    width:35rem;
+    background-color:white;
+    margin:0.1rem;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+}
+.table{
+    width:95%;
+    height:24.5rem;
+    background-image:url("https://perabotcahayajati.weebly.com/uploads/1/2/0/2/120238677/editor/img-2571.jpeg?1529375688");
+    background-size:cover;
+    position:relative;
+    top:-0.75rem;
+}
+.t{
+    width:100%;
+    text-align:left;
+    margin-left:2rem;
+}
+.t p{
+    text-align:left;
+    line-height: 1.5rem;
+}
+.t button{
+    margin-top:1rem;
+    font-size: 0.6rem;
+    font-weight:bolder;
+    padding:0.5rem;
+}
+.line1{
+    font-weight: bolder;
+}
+.line2{
+    font-size:0.8rem;
+    font-weight:bolder;
+    color:grey;
+}
+.computer{
+    background-image:url("https://2.imimg.com/data2/GV/CG/IMFCP-1521840/data2-fw-ym-imfcp-1521840-nilkamal-furniture-rta-zenith-250x250.jpg");
+}
+.circletime{
+    height:3.5rem;
+    width:3.5rem;
+    background-color:#f0d41d;
+    border-radius:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    position:relative;
+    top:1rem;
+    left:1rem;
+}
+.mainbody3{
+    height:18rem;
+    background-color:rgb(238, 237, 237);
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.m3{
+    background-color:rgb(238, 237, 237);
+    height:17.5rem;
+    width:17.5rem;
+    margin:0.1rem;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+}
+.pic{
+    height:15rem;
+    width:100%;
+     background-image:url("https://perabotcahayajati.weebly.com/uploads/1/2/0/2/120238677/editor/img-2571.jpeg?1529375688");
+    background-size:cover;
+}
+.c1{
+    height:15rem;
+    width:100%;
+    background-color:#1c1b18;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+    color:grey;
+}
+.c2{
+    background-color:red;
+}
+.c1 a{
+    color:white;
+    font-size:0.6rem;
+    margin-top:1rem;
+}
+.mainbody4{
+    height:4rem;
+    width:100%;
+    background-color: #f5df52;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.paypal{
+    height:2.5rem;
+    width:20%;
+    background-color:#f5df52;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.email{
+    height:2.5rem;
+    width:40%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.subscribe{
+    background-color:red;
+    color:white;
+    height:2.5rem;
+    font-size:0.8rem;
+    width:22%;
+    margin-left:0.2rem;
+    font-weight:bolder;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.footer{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    height:18rem;
+    background-color:#ffffff;
+}
+.content{
+    line-height:1.7rem;
+}
+.content p{
+    font-size: 1.5rem;
+    margin-bottom:1rem;
+}
+.content i{
+    margin-right:2rem;
+}
+.content li{
+    list-style-type: none;
+}
+.icons{
+    margin-top:1.5rem;
+}
+.n{
+    height:2.5rem;
+    background-color:white;
+    width:20%;
+    border-radius:0.2rem;
+}
+.pp{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7vGng5fOP2offMqnVx1dbqpYVO9SpptB3Lw&s");
+    background-size:cover;
+}
+.visa{
+    background-image:url("https://1000logos.net/wp-content/uploads/2017/06/VISA-Logo-1992.png");
+    background-size:contain;
+}
+.ae{
+    background-image:url("https://www.africa-newsroom.com/files/thumb/2a1eec33e62eca1/600/418");
+    background-size:cover;
+}
+.mc{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoeWd4Ap5lQfuvPZDtCa6voxLyr9_9MIcUXQ&s");
+    background-size:cover;
+}
+.main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.main h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+    text-align:left;
+}
+
+.main table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.main td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+    text-align:left;
+}
+
+.contact{
+    background-color: white;
+    padding: 20px 150px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+.contact h1{
+    text-align:left;
+}
+
+.center{
+    color: grey;
+    display: flex;
+    margin: 20px 150px;
+    gap: 10px;
+}
+.form{
+    background-color: white;
+padding: 10px;
+width: 600px;
+
+}
+.form table tbody tr td{
+    text-align:left;
+}
+form input{
+    background-color: rgba(236, 229, 229, 0.708);
+        height: 40px;
+        text-align:left;
+border: 2px solid rgba(236, 229, 229, 0.708);
+}
+form #name,#email{
+    width: 250px;
+}
+form #tel{
+    width: 515px;
+}
+form textarea{
+    width: 515px;
+    height: 40px;
+        background-color: rgba(236, 229, 229, 0.708);
+border: 2px solid rgba(236, 229, 229, 0.708);
+
+}
+.company{
+    background-color: white;
+width: 300px;
+height: 200px;
+color: grey;
+}
+#links a{
+    text-align:left;
+}
+.company h4{
+    text-align:left;
+padding: 5px 15px;
+}
+.company #links{
+    display: flex;
+    flex-direction: column;
+}
+.company #link{
+    padding: 5px 15px;
+}
+body{
+    background-color: rgba(236, 229, 229, 0.708);
+}
